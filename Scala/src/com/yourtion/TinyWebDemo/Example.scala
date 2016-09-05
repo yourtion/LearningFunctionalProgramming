@@ -1,12 +1,12 @@
 package com.yourtion.TinyWebDemo
 
-import com.yourtion.TinyWeb.{FunctionController, FunctionView, HttpRequest, TinyWeb}
+import com.yourtion.TinyWeb.{FunctionController, FunctionView, HttpRequest, TinyWeb, HttpResponse}
 import scala.util.Random
 
 /**
   * Created by Yourtion on 9/5/16.
   */
-object Example {
+object Example extends App {
 
   def greetingViewRenderer(model: Map[String, List[String]]) =
     "<h1>Friendly Greetings:%s".format(
@@ -39,5 +39,14 @@ object Example {
     Map("/greeting" -> greetingController),
     List(loggingFilter))
   def testHttpRequest = HttpRequest(body = "Mike,Joe,John,Steve", path = "/greeting")
+
+  override def main(args: Array[String]): Unit = {
+    val testResponse = tinyweb.handleRequest(testHttpRequest)
+    if (testResponse.isDefined) {
+      println("responseCode: " + testResponse.get.responseCode)
+      println("responseBody: ")
+      println(testResponse.get.body)
+    }
+  }
 
 }
