@@ -9,7 +9,7 @@ import scala.util.Random
 object Example extends App {
 
   def greetingViewRenderer(model: Map[String, List[String]]) =
-    "<h1>Friendly Greetings:%s".format(
+    "<h1>Friendly Greetings:</h1>%s".format(
       model
         getOrElse("greetings", List[String]())
         map(renderGreeting)
