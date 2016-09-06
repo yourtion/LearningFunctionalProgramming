@@ -1,6 +1,5 @@
-package com.yourtion.TinyWebDemo
+package com.yourtion.TinyWeb
 
-import com.yourtion.TinyWeb.{FunctionController, FunctionView, HttpRequest, TinyWeb, HttpResponse}
 import scala.util.Random
 
 /**

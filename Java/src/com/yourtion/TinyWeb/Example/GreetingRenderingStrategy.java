@@ -1,4 +1,4 @@
-package com.yourtion.TinyWebDemo;
+package com.yourtion.TinyWeb.Example;
 
 import com.yourtion.TinyWeb.RenderingStrategy;
 

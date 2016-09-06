@@ -1,4 +1,4 @@
-(ns com.yourtion.TinyWebDemo.example
+(ns com.yourtion.TinyWeb.example
     (:use [com.yourtion.TinyWeb.core])
     (:require [clojure.string :as str]))
 

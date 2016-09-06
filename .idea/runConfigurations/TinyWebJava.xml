@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="TinyWebJava" type="Application" factoryName="Application" singleton="true">
-    <option name="MAIN_CLASS_NAME" value="com.yourtion.TinyWebDemo.ExampleHarness" />
+    <option name="MAIN_CLASS_NAME" value="com.yourtion.TinyWeb.Example.ExampleHarness" />
     <option name="VM_PARAMETERS" value="" />
     <option name="PROGRAM_PARAMETERS" value="" />
     <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Java" />
