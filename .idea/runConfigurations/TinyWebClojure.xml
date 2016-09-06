@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TinyWebClojure" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+    <module name="Clojure" />
+    <setting name="path" value="$PROJECT_DIR$/Clojure/src/com/yourtion/TinyWebDemo/example.clj" />
+    <setting name="vmparams" value="" />
+    <setting name="params" value="" />
+    <setting name="workDir" value="" />
+    <setting name="repl" value="false" />
+    <method />
+  </configuration>
+</component>

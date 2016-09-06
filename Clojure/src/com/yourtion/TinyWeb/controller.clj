@@ -1,5 +1,5 @@
 (ns com.yourtion.TinyWeb.controller
-    (:import (com.yourtion.TinyWeb HttpRequest HttpRequest$Builder RenderingException)))
+    (:import (com.yourtion.TinyWeb HttpRequest$Builder RenderingException)))
 
 (defn test-controller [http-request]
       {:name (http-request :body)})
