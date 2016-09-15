@@ -11,5 +11,5 @@
 
 ;(sort (fn [p1 p2] (compare (p1 :first-name) (p2 :first-name))) people)
 
-(defn run [] (doseq [col sorted_people :when (not= col \B)]
+(defn run [] (doseq [col sorted_people :when (not= col nil)]
             (println (col :first-name) (col :last-name))))
