@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo;
 
-import com.yourtion.Pattern03.RegisterClient;
+import com.yourtion.Pattern04.PersonHarness;
 
 /**
  * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern03.RegisterClient;
 public class Example {
 
     public static void main(String[] args){
-        System.out.println("CommandExample : \n");
-        new RegisterClient().run();
+        System.out.println("Builder Example : \n");
+        new PersonHarness().run();
         System.out.println("");
 
     }
