@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern03.RegisterClient
+import com.yourtion.Pattern04.PersonHarness
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern03.RegisterClient
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("CommandExample : \n")
-    RegisterClient.run()
+    println("Immutable Example : \n")
+    PersonHarness.run()
     println()
 
   }
