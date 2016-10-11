@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern04.PersonHarness
+import com.yourtion.Pattern05.HigherOrderFunctions
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern04.PersonHarness
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Immutable Example : \n")
-    PersonHarness.run()
+    println("HigherOrderFunctions Example : \n")
+    HigherOrderFunctions.run()
     println()
 
   }
