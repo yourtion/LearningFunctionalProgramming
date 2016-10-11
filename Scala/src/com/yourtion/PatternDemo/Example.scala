@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern05.HigherOrderFunctions
+import com.yourtion.Pattern05.{HigherOrderFunctions, TheLambdaBarAndGrille}
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -12,6 +12,9 @@ object Example extends App {
     HigherOrderFunctions.run()
     println()
 
+    println("Sequences Comprehension Example : \n")
+    TheLambdaBarAndGrille.run()
+    
   }
 
 }
