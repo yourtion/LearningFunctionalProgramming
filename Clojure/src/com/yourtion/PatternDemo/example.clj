@@ -1,6 +1,6 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern04.person :as p4]))
+  (:require [com.yourtion.Pattern05.higher-order-functions :as p5]))
 
-(println "Immutable Example :")
-(p4/run)
+(println "HigherOrderFunctions Example :")
+(p5/run)
 (println)
