@@ -1,10 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern05.higher-order-functions :as p51])
-  (:require [com.yourtion.Pattern05.lambda-bar-and-grille :as p52]))
+  (:require [com.yourtion.Pattern06.grade-reporter :as p6]))
 
-(println "HigherOrderFunctions Example :")
-(p51/run)
+(println "Replace Template With Function Builder Example : ")
 (println)
-(println "Sequences Comprehension Example :")
-(p52/run)
+(p6/run)
 (println)
