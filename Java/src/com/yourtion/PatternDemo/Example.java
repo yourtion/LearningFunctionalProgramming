@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo;
 
-import com.yourtion.Pattern07.PersonCollectorExample;
+import com.yourtion.Pattern08.PersonExample;
 
 /**
  * Created by Yourtion on 9/7/16.
@@ -8,12 +8,11 @@ import com.yourtion.Pattern07.PersonCollectorExample;
 public class Example {
 
     public static void main(String[] args){
-        System.out.println("Policy Example : \n");
+        System.out.println("Null object Example : \n");
 
-        new PersonCollectorExample().run();
+        new PersonExample().run();
 
         System.out.println("");
-
 
     }
 }
