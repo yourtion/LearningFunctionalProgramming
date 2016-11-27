@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern07.people-collector-example :as p7]))
+  (:require [com.yourtion.Pattern08.person-example :as p8]))
 
-(println "Replace Template With Function Builder Example : ")
+(println "Null object Example : ")
 (println)
-(p7/run)
+(p8/run)
 (println)
