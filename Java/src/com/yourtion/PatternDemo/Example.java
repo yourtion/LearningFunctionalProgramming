@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo;
 
-import com.yourtion.Pattern08.PersonExample;
+import com.yourtion.Pattern09.CalculatorExample;
 
 /**
  * Created by Yourtion on 9/7/16.
@@ -8,9 +8,9 @@ import com.yourtion.Pattern08.PersonExample;
 public class Example {
 
     public static void main(String[] args){
-        System.out.println("Null object Example : \n");
+        System.out.println("Decorator Example : \n");
 
-        new PersonExample().run();
+        new CalculatorExample().run();
 
         System.out.println("");
 
