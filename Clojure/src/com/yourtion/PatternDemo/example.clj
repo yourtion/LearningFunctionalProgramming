@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern08.person-example :as p8]))
+  (:require [com.yourtion.Pattern09.calculator-example :as p9]))
 
-(println "Null object Example : ")
+(println "Decorator Example : ")
 (println)
-(p8/run)
+(p9/run)
 (println)
