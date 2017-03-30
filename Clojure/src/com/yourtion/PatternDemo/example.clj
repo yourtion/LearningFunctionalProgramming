@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern09.calculator-example :as p9]))
+  (:require [com.yourtion.Pattern10.visitor-example :as p10]))
 
-(println "Decorator Example : ")
+(println "Visitor Example : ")
 (println)
-(p9/run)
+(p10/run)
 (println)
