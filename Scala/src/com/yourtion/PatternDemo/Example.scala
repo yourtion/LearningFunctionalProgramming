@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern11.Services
+import com.yourtion.Pattern12.Names
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern11.Services
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Service Example : \n")
-    Services.run()
+    println("Tailrecursion Example : \n")
+    Names.run()
     println()
   }
 
