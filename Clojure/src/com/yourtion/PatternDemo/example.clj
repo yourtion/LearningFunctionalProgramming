@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern10.visitor-example :as p10]))
+  (:require [com.yourtion.Pattern11.services :as p11]))
 
-(println "Visitor Example : ")
+(println "Service Example : ")
 (println)
-(p10/run)
+(p1/run)
 (println)
