@@ -1,6 +1,8 @@
 package com.yourtion.PatternDemo;
 
-import com.yourtion.Pattern09.CalculatorExample;
+import com.yourtion.Pattern12.SumExample;
+
+;
 
 /**
  * Created by Yourtion on 9/7/16.
@@ -8,9 +10,9 @@ import com.yourtion.Pattern09.CalculatorExample;
 public class Example {
 
     public static void main(String[] args){
-        System.out.println("Decorator Example : \n");
+        System.out.println("Tailrecursion Example : \n");
 
-        new CalculatorExample().run();
+        new SumExample().run();
 
         System.out.println("");
 
