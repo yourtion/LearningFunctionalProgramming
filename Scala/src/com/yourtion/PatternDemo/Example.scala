@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern10.VisitorExample
+import com.yourtion.Pattern11.Services
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern10.VisitorExample
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Visitor Example : \n")
-    VisitorExample.run()
+    println("Service Example : \n")
+    Services.run()
     println()
   }
 
