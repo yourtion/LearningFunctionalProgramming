@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern11.services :as p11]))
+  (:require [com.yourtion.Pattern12.names :as p12]))
 
-(println "Service Example : ")
+(println "Tailrecursion Example : ")
 (println)
-(p1/run)
+(p12/run)
 (println)
