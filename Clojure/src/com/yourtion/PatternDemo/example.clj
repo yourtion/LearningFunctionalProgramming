@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern14.discount-example :as p14]))
+  (:require [com.yourtion.Pattern15.chain-example :as p15]))
 
-(println "Filter Map Reduce Example: ")
+(println "Chain Example: ")
 (println)
-(p14/run)
+(p15/run)
 (println)
