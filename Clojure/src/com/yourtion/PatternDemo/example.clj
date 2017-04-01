@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern13.mutual-recursion-example :as p13]))
+  (:require [com.yourtion.Pattern14.discount-example :as p14]))
 
-(println "Mutual Recursion Example: ")
+(println "Filter Map Reduce Example: ")
 (println)
-(p13/run)
+(p14/run)
 (println)
