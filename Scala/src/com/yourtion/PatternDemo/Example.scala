@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern14.DiscountExample
+import com.yourtion.Pattern15.ChainExample
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern14.DiscountExample
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Filter Map Reduce Example : \n")
-    DiscountExample.run()
+    println("Chain Example : \n")
+    ChainExample.run()
     println()
   }
 
