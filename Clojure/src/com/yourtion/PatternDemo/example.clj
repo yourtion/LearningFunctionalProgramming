@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern12.names :as p12]))
+  (:require [com.yourtion.Pattern13.mutual-recursion-example :as p13]))
 
-(println "Tailrecursion Example : ")
+(println "Mutual Recursion Example: ")
 (println)
-(p12/run)
+(p13/run)
 (println)
