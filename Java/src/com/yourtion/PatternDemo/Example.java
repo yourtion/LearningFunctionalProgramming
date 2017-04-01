@@ -1,8 +1,6 @@
 package com.yourtion.PatternDemo;
 
-import com.yourtion.Pattern12.SumExample;
-
-;
+import com.yourtion.Pattern15.ChainExample;
 
 /**
  * Created by Yourtion on 9/7/16.
@@ -10,9 +8,9 @@ import com.yourtion.Pattern12.SumExample;
 public class Example {
 
     public static void main(String[] args){
-        System.out.println("Tailrecursion Example : \n");
+        System.out.println("Chain Example : \n");
 
-        new SumExample().run();
+        new ChainExample().run();
 
         System.out.println("");
 
