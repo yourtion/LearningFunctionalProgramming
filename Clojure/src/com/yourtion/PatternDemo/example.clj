@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern15.chain-example :as p15]))
+  (:require [com.yourtion.Pattern16.function-builder-example :as p16]))
 
-(println "Chain Example: ")
+(println "Function Builder Example: ")
 (println)
-(p15/run)
+(p16/run)
 (println)
