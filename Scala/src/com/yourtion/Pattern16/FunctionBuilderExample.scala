@@ -7,5 +7,7 @@ package com.yourtion.Pattern16
 object FunctionBuilderExample {
   def run(): Unit = {
     DiscountBuilder.run()
+    println()
+    SelectorExample.run()
   }
 }
