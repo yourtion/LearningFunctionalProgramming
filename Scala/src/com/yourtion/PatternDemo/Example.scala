@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern15.ChainExample
+import com.yourtion.Pattern16.FunctionBuilderExample
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern15.ChainExample
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Chain Example : \n")
-    ChainExample.run()
+    println("Function Builder Example : \n")
+    FunctionBuilderExample.run()
     println()
   }
 
