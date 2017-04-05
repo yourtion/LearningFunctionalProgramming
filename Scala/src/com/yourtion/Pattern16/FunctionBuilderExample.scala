@@ -11,5 +11,7 @@ object FunctionBuilderExample {
     SelectorExample.run()
     println()
     CompositionExamples.run()
+    println()
+    PartialExamples.run()
   }
 }
