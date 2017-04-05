@@ -9,5 +9,7 @@ object FunctionBuilderExample {
     DiscountBuilder.run()
     println()
     SelectorExample.run()
+    println()
+    CompositionExamples.run()
   }
 }
