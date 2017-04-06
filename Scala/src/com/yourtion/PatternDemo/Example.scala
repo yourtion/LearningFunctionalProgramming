@@ -1,7 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern17.MemoizationExample
-import com.yourtion.Pattern18.LazySequenceExample
+import com.yourtion.Pattern19.FocusedMutationExample
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -9,8 +8,8 @@ import com.yourtion.Pattern18.LazySequenceExample
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Lazy Sequence Example : \n")
-    LazySequenceExample.run()
+    println("Focused Mutation Example : \n")
+    FocusedMutationExample.run()
     println()
   }
 
