@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern18.lazy-sequence-example :as p18]))
+  (:require [com.yourtion.Pattern19.focused-mutation-example :as p19]))
 
-(println "LazySequence Example: ")
+(println "Focused Mutation Example: ")
 (println)
-(p18/run)
+(p19/run)
 (println)
