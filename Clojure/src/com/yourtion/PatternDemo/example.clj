@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern17.memoization-example :as p17]))
+  (:require [com.yourtion.Pattern18.lazy-sequence-example :as p18]))
 
-(println "Memoization Example: ")
+(println "LazySequence Example: ")
 (println)
-(p17/run)
+(p18/run)
 (println)
