@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern16.FunctionBuilderExample
+import com.yourtion.Pattern17.MemoizationExample
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern16.FunctionBuilderExample
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Function Builder Example : \n")
-    FunctionBuilderExample.run()
+    println("Memoization Example : \n")
+    MemoizationExample.run()
     println()
   }
 
