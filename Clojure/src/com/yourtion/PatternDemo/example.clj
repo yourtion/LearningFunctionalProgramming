@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern16.function-builder-example :as p16]))
+  (:require [com.yourtion.Pattern17.memoization-example :as p17]))
 
-(println "Function Builder Example: ")
+(println "Memoization Example: ")
 (println)
-(p16/run)
+(p17/run)
 (println)
