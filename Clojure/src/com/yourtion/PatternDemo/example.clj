@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern19.focused-mutation-example :as p19]))
+  (:require [com.yourtion.Pattern20.flow-control-example :as p20]))
 
-(println "Focused Mutation Example: ")
+(println "Flow Control Example: ")
 (println)
-(p19/run)
+(p20/run)
 (println)
