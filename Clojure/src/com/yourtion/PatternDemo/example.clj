@@ -1,7 +1,7 @@
 (ns com.yourtion.PatternDemo.example
-  (:require [com.yourtion.Pattern20.flow-control-example :as p20]))
+  (:require [com.yourtion.Pattern21.dsl-example :as p21]))
 
-(println "Flow Control Example: ")
+(println "DSL Example: ")
 (println)
-(p20/run)
+(p21/run)
 (println)
