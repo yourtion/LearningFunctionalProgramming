@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern19.FocusedMutationExample
+import com.yourtion.Pattern20.FlowControlExample
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern19.FocusedMutationExample
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Focused Mutation Example : \n")
-    FocusedMutationExample.run()
+    println("Flow Control Example : \n")
+    FlowControlExample.run()
     println()
   }
 
