@@ -1,6 +1,6 @@
 package com.yourtion.PatternDemo
 
-import com.yourtion.Pattern20.FlowControlExample
+import com.yourtion.Pattern21.DSLExample
 
 /**
   * Created by Yourtion on 9/7/16.
@@ -8,8 +8,8 @@ import com.yourtion.Pattern20.FlowControlExample
 object Example extends App {
 
   override def main(args: Array[String]): Unit = {
-    println("Flow Control Example : \n")
-    FlowControlExample.run()
+    println("DSL Example : \n")
+    DSLExample.run()
     println()
   }
 
